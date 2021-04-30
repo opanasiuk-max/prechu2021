@@ -1,0 +1,235 @@
+.center {
+    text-align: center;
+    position: relative;
+}
+.header, .banner, .page, footer {
+    max-width: none;
+    position: relative;
+}
+.wrapper {
+    max-width: 1024px;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #555;
+
+}
+.header {
+    background-color: #fff;
+    max-height: 95px;
+    display: block;
+}
+.header>.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    display: block;
+    width: 200px;
+    margin-left: 20px;
+}
+.logo-text {
+    font-family: 'Segoe WP';
+    font-size: 42px;
+    /* font-weight: 100; */
+    margin: 0 0 0 55px;
+    display: block;
+
+}
+.logo-text::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+    background-image: url(../img/Logo-img.png);
+    display: block;
+    top: calc(50% - 20px);
+
+}
+.navigation {
+    display: block;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    list-style: none;
+    max-width: 450px;
+    margin: 25px 0 3px 0;
+}
+.nav>li {
+    padding: 15px;
+    display: block;
+}
+.nav>li.active>a {
+    border-bottom: 2px solid #5094f2;
+    padding-bottom: 15px;
+}
+.nav>li>a:hover {
+    border-bottom: 2px solid #0f0;
+}
+
+.nav>li>a {
+    font-family: 'Segoe WPN';
+    font-size: 20.35px;
+    text-decoration: none;
+    color: #6c6c6c;
+}
+/* banner */
+.banner {
+    background-image: url(../img/banner01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: padding-box;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 4000000;
+    /* text-align: center; */
+    top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+.banner::after {
+    content: '';
+    background-image: url(../img/banner02.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 5000000;
+    text-align: center;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+
+}
+.banner>.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.br-title {
+        font-size: 42.35px;
+        font-family: "Segoe WP";
+        color: #fff;
+        line-height: 1.5;    
+}
+.text {
+    font-size: 26.35px;
+    font-family: "Segoe WP";
+    color: #fff;
+    line-height: 1.5;    
+}
+.btn {
+    display: block;
+    position: relative;
+        width: 172px;
+        height: 41px;    
+        background-color: #5094f2;
+        margin: 20px;
+}
+.btn>a {
+    display: block;
+    position: relative;
+    font-size: 22.35px;
+    font-family: "Segoe WP";
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.7;
+    margin-left: 25px;
+}
+.btn>a::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-image: url(../img/Shape-btn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 23px;
+    height: 23px;
+    top: calc(50% - 11px);
+    left: -25px;
+}
+/* page */
+.page-top {
+    display: flex;
+    flex-direction: row;
+}
+.pt-items {
+    display: block;
+    padding: 60px 25px;
+}
+.h4 {
+    font-size: 20.35px;
+    font-family: "Segoe WPN";
+    color: #5094f2;
+    line-height: 2.183;
+}
+.pt-items-desc {
+        font-size: 14.35px;
+        font-family: "Segoe WPN";
+        color: #909090;
+        line-height: 1.2;
+}
+
+.page-title {
+    font-family: 'Segoe WPN';
+    font-size: 42.35px;
+        line-height: 1.049;
+        color: #008170;
+
+}
+
+.page-bottom {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.basket {
+    display: block;
+}
+.page-bottom-text {
+    display: block;
+    margin: 0 20px 0 60px;
+}
+.h3 {
+    font-family: 'Segoe WPN';
+    font-size: 26.35px;
+    color: #008170;
+        line-height: 1.686;     
+}
+.description {
+    font-family: 'Segoe WPN Light';
+    font-size: 15.35px;
+    color: #008170;
+        line-height: 2.345;     
+}
+
+/* footer */
+.footer>.wrapper {
+    padding: 30px 0 40px 0;
+    color: #008170;
+    font-family: 'Segoe WPN Light';
+    font-size: 15.35px;
+    border-top: 1px solid #008170;
+}

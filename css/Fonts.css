@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Segoe WP';
+	src: url('../fonts/SegoeWP.ttf');
+}
+@font-face {
+	font-family: 'Segoe WP Light';
+	src: url('../fonts/SegoeWPLight.ttf');
+}
+@font-face {
+	font-family: 'Segoe WPN Light';
+	src: url('../fonts/SegoeWPN-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Segoe WPN';
+	src: url('../fonts/SegoeWPN.ttf');
+}
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+
+

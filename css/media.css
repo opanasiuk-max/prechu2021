@@ -1,0 +1,76 @@
+@media (max-width: 750px)  {
+    .logo-text {
+        font-size: 49.44px;
+    }
+    .banner-left>img {
+            width: 177px;
+            height: 223px;
+    }
+    .br-title {
+        font-size: 30.98px;
+    }
+    .text {
+        font-size: 22.71px;
+    }
+    .btn {
+            width: 235px;
+            height: 53px;
+            margin: 20px 0;
+    }
+    .btn>a {
+        font-size: 31.08px;
+        margin-left: 35px;
+
+    }
+    .btn>a::before {
+        width: 33px;
+        height: 33px;
+        margin-left: 10px;
+        top: calc(50% - 15px);
+        left: -35px;
+    }
+    .page-top {
+        flex-direction: column;
+    }
+    .pt-items {
+        display: flex;
+        flex-direction: row;
+        padding: 25px 40px 15px 40px;
+        border-bottom: 1px solid #cccccc;
+    }
+    .pt-items>img {
+        width: 137px;
+        height: 136px;
+    }
+    .pt-items-text {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 25px;
+    }
+    .pt-items-text>.h4 {
+        font-size: 34.13px;
+    }
+    .pt-items-desc {
+        font-size: 19.35px;
+        margin: 0;
+    }
+      
+      
+
+    .page-title {  
+        text-align: center;
+        
+    }
+    
+    .page-bottom {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .h3 {
+        font-size: 34.35px;
+    }
+    .description {
+        font-size: 17.35px;
+    }
+}
